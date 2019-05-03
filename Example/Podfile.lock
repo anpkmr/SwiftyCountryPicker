@@ -1,0 +1,16 @@
+PODS:
+  - SwiftyCountryPicker (0.1.0)
+
+DEPENDENCIES:
+  - SwiftyCountryPicker (from `../`)
+
+EXTERNAL SOURCES:
+  SwiftyCountryPicker:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SwiftyCountryPicker: dd8dbb0d9c54de2d86d16378865f09bdda60c130
+
+PODFILE CHECKSUM: 7798df67ba6121ff488fa6ae09dce226064f2083
+
+COCOAPODS: 1.6.0

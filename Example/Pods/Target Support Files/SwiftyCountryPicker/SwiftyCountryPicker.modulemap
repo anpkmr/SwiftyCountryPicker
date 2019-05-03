@@ -1,0 +1,6 @@
+framework module SwiftyCountryPicker {
+  umbrella header "SwiftyCountryPicker-umbrella.h"
+
+  export *
+  module * { export * }
+}

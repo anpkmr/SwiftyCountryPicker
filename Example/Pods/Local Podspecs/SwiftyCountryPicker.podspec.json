@@ -1,0 +1,22 @@
+{
+  "name": "SwiftyCountryPicker",
+  "version": "0.1.0",
+  "summary": "A short description of SwiftyCountryPicker.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/anoopkumarevontech/SwiftyCountryPicker",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "anoopkumarevontech": "anoop.kumar@evontech.com"
+  },
+  "source": {
+    "git": "https://github.com/anoopkumarevontech/SwiftyCountryPicker.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SwiftyCountryPicker/Classes/**/*"
+}
