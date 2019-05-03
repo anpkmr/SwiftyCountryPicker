@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SwiftyCountryPicker_Example' do
+  pod 'SwiftyCountryPicker', :path => '../'
+
+  target 'SwiftyCountryPicker_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
