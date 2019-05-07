@@ -138,7 +138,7 @@
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		6EF47333228182D80064BAAF /* PickerView */ = {
+		6EF47333228182D80064BAAF /* Classes */ = {
 			isa = PBXGroup;
 			children = (
 				6EF47365228191D90064BAAF /* CountryFlags */,
@@ -146,7 +146,7 @@
 				6EF47366228191F00064BAAF /* CountryPView */,
 				6EF4733C228182D80064BAAF /* CustomCellView */,
 			);
-			path = PickerView;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		6EF47338228182D80064BAAF /* CountryM */ = {
@@ -241,7 +241,7 @@
 		B55C1AB4F15EBFA3501926FFE2910ADC /* SwiftyCountryPicker */ = {
 			isa = PBXGroup;
 			children = (
-				6EF47333228182D80064BAAF /* PickerView */,
+				6EF47333228182D80064BAAF /* Classes */,
 				3EA90EE4A21240E0BAAA4186CA576ADC /* Pod */,
 				932CCA83A35DFF9FBB0A80F1D4B15896 /* Support Files */,
 			);

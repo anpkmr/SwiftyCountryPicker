@@ -28,10 +28,11 @@ Show a country picker to choose the country we have some delegate methods to cal
   s.author           = { 'anpkmr' => 'anup227kumar@evontech.com' }
   s.source           = { :git => 'https://github.com/anpkmr/SwiftyCountryPicker.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.requires_arc = true
+  s.ios.deployment_target = '9.0'
+  s.static_framework = true
 
-  s.ios.deployment_target = '8.0'
-
-  s.source_files = 'SwiftyCountryPicker/PikcerView/**/*'
+  s.source_files = 'SwiftyCountryPicker/Classes/**/*'
   
   # s.resource_bundles = {
   #   'SwiftyCountryPicker' => ['SwiftyCountryPicker/Assets/*.png']
