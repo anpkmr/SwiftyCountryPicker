@@ -31,12 +31,12 @@ Show a country picker to choose the country we have some delegate methods to cal
   s.requires_arc = true
   s.ios.deployment_target = '9.0'
   s.static_framework = true
-
+  s.resources = "SwiftyCountryPicker/Assets/*"
   s.source_files = 'SwiftyCountryPicker/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'SwiftyCountryPicker' => ['SwiftyCountryPicker/Assets/*.png']
-  # }
+   s.resource_bundles = {
+     'SwiftyCountryPicker' => ['SwiftyCountryPicker/Assets/*.png','SwiftyCountryPicker/Classes/**/*']
+   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   s.frameworks = 'UIKit'

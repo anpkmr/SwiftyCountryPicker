@@ -7,7 +7,8 @@
 //
 
 import Foundation
-public class CountryFlags{
+
+public class CountryFlags {
   static  var path:String? = nil
   static  var array:Array<Any>? = nil
     public class func flag(country:String) -> String {
@@ -19,13 +20,11 @@ public class CountryFlags{
         return String(usv)
     }
     
-   public class func countryArray() -> Array<Country>{
+   public class func countryArray() -> Array<Country> {
         var customCountryArray = [Country]()
         let podBundle = Bundle(for: self)
         path = podBundle.path(forResource: "CallingCodes", ofType: "plist")
-        CountryFlags.path = path
-//       CountryFlags.path = Bundle.main.path(forResource: "CallingCodes", ofType: "plist")
-        print("Country info plist paht ==== \(CountryFlags.path))")
+        print("Country info plist paht ==== \(String(describing: CountryFlags.path)))")
         if path != nil {
         array = NSArray(contentsOfFile: path!) as! Array<Any>?
         for contr in NSLocale.isoCountryCodes {
