@@ -22,7 +22,7 @@ pod 'SwiftyCountryPicker'
 
 ## Author
 
-anoopkumarevontech, anoop.kumar@evontech.com
+anpkmr, anup227kumar@gmail.com
 
 ## License
 
