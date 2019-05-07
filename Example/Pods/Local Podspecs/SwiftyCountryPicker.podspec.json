@@ -1,22 +1,26 @@
 {
   "name": "SwiftyCountryPicker",
-  "version": "0.1.0",
-  "summary": "A short description of SwiftyCountryPicker.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/anoopkumarevontech/SwiftyCountryPicker",
+  "version": "0.1.2",
+  "summary": "Show a country picker to choose the country.",
+  "swift_version": "4.0",
+  "description": "Show a country picker to choose the country we have some delegate methods to call that will give info to selected country.",
+  "homepage": "https://github.com/anpkmr/SwiftyCountryPicker",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "anoopkumarevontech": "anoop.kumar@evontech.com"
+    "anpkmr": "anup227kumar@evontech.com"
   },
   "source": {
-    "git": "https://github.com/anoopkumarevontech/SwiftyCountryPicker.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/anpkmr/SwiftyCountryPicker.git",
+    "tag": "0.1.2"
   },
+  "requires_arc": true,
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0"
   },
-  "source_files": "SwiftyCountryPicker/Classes/**/*"
+  "static_framework": true,
+  "source_files": "SwiftyCountryPicker/Classes/**/*",
+  "frameworks": "UIKit"
 }

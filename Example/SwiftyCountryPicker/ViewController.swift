@@ -11,11 +11,15 @@ import SwiftyCountryPicker
 
 class ViewController: UIViewController {
     
-//    @IBOutlet weak var pickerView
+    @IBOutlet weak var pickerView:CountryPickerView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        pickerView.setCountryPickerView(hideflag: false, countryName: true, countryCode: true, countrydialCode: true)
+        pickerView.getSelctedCountry { (data) in
+            print("County is ===\(data)")
+        }
     }
 
     override func didReceiveMemoryWarning() {

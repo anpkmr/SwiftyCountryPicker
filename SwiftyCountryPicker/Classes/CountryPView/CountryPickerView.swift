@@ -51,7 +51,7 @@ public class CountryPickerView: UIPickerView,UIPickerViewDelegate,UIPickerViewDa
     }
     
    public func getSelctedCountry (closure:((_ selectedCountry:Country)->Void)){
-    guard countryArray == nil , countryArray.isEmpty == true else {
+    guard countryArray != nil , countryArray.isEmpty == true else {
         closure(countryArray[currentSelectedRow])
         return
     }

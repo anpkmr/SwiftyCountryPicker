@@ -21,7 +21,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="S3i-5O-7lI" customClass="CountryPickerView">
+                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="S3i-5O-7lI" customClass="CountryPickerView" customModule="SwiftyCountryPicker">
                                 <rect key="frame" x="0.0" y="451" width="375" height="216"/>
                             </pickerView>
                         </subviews>
@@ -32,6 +32,9 @@
                             <constraint firstItem="S3i-5O-7lI" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="rjU-Gw-G26"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="pickerView" destination="S3i-5O-7lI" id="opY-fZ-W6s"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>

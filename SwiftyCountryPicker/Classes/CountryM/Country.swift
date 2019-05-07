@@ -8,11 +8,11 @@
 
 import Foundation
 public class Country:NSObject {
-    var countryCode: String? = nil
-    var countryName:String? = nil
-    var countryImage:String? = nil
-    var phoneCode:String? = nil
-    public override init() {
+   public var countryCode: String? = nil
+   public var countryName:String? = nil
+   public var countryImage:String? = nil
+   public var phoneCode:String? = nil
+   public override init() {
         super.init()
     }
 }
