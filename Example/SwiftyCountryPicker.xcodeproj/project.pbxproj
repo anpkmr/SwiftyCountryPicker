@@ -41,12 +41,12 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		99D5ADCAA8BF00E84E3BB36B /* Pods-SwiftyCountryPicker_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyCountryPicker_Tests.release.xcconfig"; path = "Target Support Files/Pods-SwiftyCountryPicker_Tests/Pods-SwiftyCountryPicker_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		A637102E2EA00711995EB2EF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		A637102E2EA00711995EB2EF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		B435B17A1FD9A049D240ACCC /* Pods_SwiftyCountryPicker_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftyCountryPicker_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C23897C085ABB196FA25BFE5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		C23897C085ABB196FA25BFE5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		E70A5158FA99B9B154E27323 /* Pods-SwiftyCountryPicker_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyCountryPicker_Example.release.xcconfig"; path = "Target Support Files/Pods-SwiftyCountryPicker_Example/Pods-SwiftyCountryPicker_Example.release.xcconfig"; sourceTree = "<group>"; };
 		F1DEB7D546211E09F949C085 /* Pods_SwiftyCountryPicker_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftyCountryPicker_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F8F9DCEEA8D5696A87CF61DA /* SwiftyCountryPicker.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SwiftyCountryPicker.podspec; path = ../SwiftyCountryPicker.podspec; sourceTree = "<group>"; };
+		F8F9DCEEA8D5696A87CF61DA /* SwiftyCountryPicker.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SwiftyCountryPicker.podspec; path = ../SwiftyCountryPicker.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,7 +147,6 @@
 				585008A748428D4EA2435B91 /* Pods-SwiftyCountryPicker_Tests.debug.xcconfig */,
 				99D5ADCAA8BF00E84E3BB36B /* Pods-SwiftyCountryPicker_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -214,6 +213,7 @@
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
 						LastSwiftMigration = 0900;
+						ProvisioningStyle = Manual;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
@@ -482,11 +482,14 @@
 			baseConfigurationReference = 5E2F8CF8EE265891BB4EA3A6 /* Pods-SwiftyCountryPicker_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = SwiftyCountryPicker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 			};
@@ -497,11 +500,14 @@
 			baseConfigurationReference = E70A5158FA99B9B154E27323 /* Pods-SwiftyCountryPicker_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = SwiftyCountryPicker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 			};

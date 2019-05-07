@@ -9,7 +9,8 @@
 Pod::Spec.new do |s|
   s.name             = 'SwiftyCountryPicker'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of SwiftyCountryPicker.'
+  s.summary          = 'Show a country picker to choose the country.'
+  s.swift_version = '4.0'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,14 +19,14 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+Show a country picker to choose the country we have some delegate methods to call that will give info to selected country.
                        DESC
 
-  s.homepage         = 'https://github.com/anoopkumarevontech/SwiftyCountryPicker'
+  s.homepage         = 'https://github.com/anpkmr/SwiftyCountryPicker'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'anoopkumarevontech' => 'anoop.kumar@evontech.com' }
-  s.source           = { :git => 'https://github.com/anoopkumarevontech/SwiftyCountryPicker.git', :tag => s.version.to_s }
+  s.author           = { 'anpkmr' => 'anup227kumar@evontech.com' }
+  s.source           = { :git => 'https://github.com/anpkmr/SwiftyCountryPicker.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
@@ -37,6 +38,6 @@ TODO: Add long description of the pod here.
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  s.frameworks = 'UIKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
