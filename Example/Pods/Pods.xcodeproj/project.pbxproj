@@ -141,9 +141,9 @@
 		6EF47333228182D80064BAAF /* PickerView */ = {
 			isa = PBXGroup;
 			children = (
-				6EF47337228182D80064BAAF /* CountryFlags.swift */,
+				6EF47365228191D90064BAAF /* CountryFlags */,
 				6EF47338228182D80064BAAF /* CountryM */,
-				6EF4733B228182D80064BAAF /* CountryPickerView.swift */,
+				6EF47366228191F00064BAAF /* CountryPView */,
 				6EF4733C228182D80064BAAF /* CustomCellView */,
 			);
 			path = PickerView;
@@ -165,6 +165,22 @@
 				6EF4733E228182D80064BAAF /* countryPickerViewCell.swift */,
 			);
 			path = CustomCellView;
+			sourceTree = "<group>";
+		};
+		6EF47365228191D90064BAAF /* CountryFlags */ = {
+			isa = PBXGroup;
+			children = (
+				6EF47337228182D80064BAAF /* CountryFlags.swift */,
+			);
+			path = CountryFlags;
+			sourceTree = "<group>";
+		};
+		6EF47366228191F00064BAAF /* CountryPView */ = {
+			isa = PBXGroup;
+			children = (
+				6EF4733B228182D80064BAAF /* CountryPickerView.swift */,
+			);
+			path = CountryPView;
 			sourceTree = "<group>";
 		};
 		8160094BC7507CA3E94E805302A02076 /* Pods-SwiftyCountryPicker_Tests */ = {
