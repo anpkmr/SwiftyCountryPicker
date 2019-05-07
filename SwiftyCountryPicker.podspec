@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SwiftyCountryPicker'
-  s.version          = '0.1.3'
+  s.version          = '0.1.4'
   s.summary          = 'Show a country picker to choose the country.'
   s.swift_version = '4.0'
 
@@ -35,7 +35,7 @@ Show a country picker to choose the country we have some delegate methods to cal
   s.source_files = 'SwiftyCountryPicker/Classes/**/*'
   
    s.resource_bundles = {
-     'SwiftyCountryPicker' => ['SwiftyCountryPicker/Assets/*.png','SwiftyCountryPicker/Classes/**/*']
+       'SwiftyCountryPicker' => ['SwiftyCountryPicker/Assets/*{.png,.plist}','SwiftyCountryPicker/Classes/**/*']
    }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
