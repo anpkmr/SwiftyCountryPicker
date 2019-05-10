@@ -44,6 +44,7 @@ public class CountryPickerView: UIPickerView,UIPickerViewDelegate,UIPickerViewDa
         let  pckrCellView   = (UINib(nibName: "CountryCellView", bundle: bundle).instantiate(withOwner: nil, options: nil)[0] as! countryPickerViewCell)
         pckrCellView.setCountryCellData(countryObject: countryArray[row], flag: hideflg!, countryName: hidecountryName!, countryCode: hideCountryCode!, countrydialCode: hidecountrydialCode!)
         return pckrCellView
+//        return UIView()
     }
     
     public func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {

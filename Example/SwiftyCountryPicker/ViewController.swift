@@ -18,7 +18,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         pickerView.setCountryPickerView(hideflag: false, countryName: true, countryCode: true, countrydialCode: true)
         pickerView.getSelctedCountry { (data) in
-            print("County is ===\(data)")
+            print("County is ===\(data.countryCode)")
         }
     }
 
