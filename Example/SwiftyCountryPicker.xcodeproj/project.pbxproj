@@ -15,6 +15,7 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		6EFF4814228965B000AE3458 /* scnshot.png in Resources */ = {isa = PBXBuildFile; fileRef = 6EFF4813228965B000AE3458 /* scnshot.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		607FACE51AFB9204008FA782 /* SwiftyCountryPicker_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftyCountryPicker_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
+		6EFF4813228965B000AE3458 /* scnshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scnshot.png; sourceTree = "<group>"; };
 		99D5ADCAA8BF00E84E3BB36B /* Pods-SwiftyCountryPicker_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyCountryPicker_Tests.release.xcconfig"; path = "Target Support Files/Pods-SwiftyCountryPicker_Tests/Pods-SwiftyCountryPicker_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		A637102E2EA00711995EB2EF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		B435B17A1FD9A049D240ACCC /* Pods_SwiftyCountryPicker_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftyCountryPicker_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -93,6 +95,7 @@
 		607FACD21AFB9204008FA782 /* Example for SwiftyCountryPicker */ = {
 			isa = PBXGroup;
 			children = (
+				6EFF48122289659700AE3458 /* ScreenShot */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
@@ -137,6 +140,14 @@
 				A637102E2EA00711995EB2EF /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		6EFF48122289659700AE3458 /* ScreenShot */ = {
+			isa = PBXGroup;
+			children = (
+				6EFF4813228965B000AE3458 /* scnshot.png */,
+			);
+			path = ScreenShot;
 			sourceTree = "<group>";
 		};
 		86CFB3E4E57CA88B5899A30B /* Pods */ = {
@@ -246,6 +257,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6EFF4814228965B000AE3458 /* scnshot.png in Resources */,
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,

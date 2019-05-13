@@ -21,23 +21,84 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="S3i-5O-7lI" customClass="CountryPickerView" customModule="SwiftyCountryPicker">
-                                <rect key="frame" x="0.0" y="451" width="375" height="216"/>
-                            </pickerView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dJL-hI-np8">
+                                <rect key="frame" x="0.0" y="470" width="375" height="197"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QtV-IS-VM6">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="45"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6KY-aa-wJ6">
+                                                <rect key="frame" x="8" y="0.0" width="48" height="45"/>
+                                                <state key="normal" title="Cancel">
+                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="buttnCancelTapped:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="66i-lA-IBX"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X1w-GM-3SS">
+                                                <rect key="frame" x="330" y="0.0" width="37" height="45"/>
+                                                <state key="normal" title="Done">
+                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="buttnDoneTapped:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="dMt-4v-EXU"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstItem="6KY-aa-wJ6" firstAttribute="leading" secondItem="QtV-IS-VM6" secondAttribute="leading" constant="8" id="6wu-tm-KKH"/>
+                                            <constraint firstAttribute="bottom" secondItem="X1w-GM-3SS" secondAttribute="bottom" id="D8v-yd-XME"/>
+                                            <constraint firstItem="X1w-GM-3SS" firstAttribute="top" secondItem="QtV-IS-VM6" secondAttribute="top" id="EOA-ps-yWW"/>
+                                            <constraint firstAttribute="bottom" secondItem="6KY-aa-wJ6" secondAttribute="bottom" id="QSr-It-sfX"/>
+                                            <constraint firstAttribute="trailing" secondItem="X1w-GM-3SS" secondAttribute="trailing" constant="8" id="STU-nr-9zh"/>
+                                            <constraint firstItem="6KY-aa-wJ6" firstAttribute="top" secondItem="QtV-IS-VM6" secondAttribute="top" id="Vi4-Iu-JQg"/>
+                                            <constraint firstAttribute="height" constant="45" id="oXQ-u3-dCw"/>
+                                        </constraints>
+                                    </view>
+                                    <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="S3i-5O-7lI" customClass="CountryPickerView" customModule="SwiftyCountryPicker">
+                                        <rect key="frame" x="0.0" y="45" width="375" height="152"/>
+                                    </pickerView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="QtV-IS-VM6" firstAttribute="top" secondItem="dJL-hI-np8" secondAttribute="top" id="6nM-4g-Jif"/>
+                                    <constraint firstItem="S3i-5O-7lI" firstAttribute="leading" secondItem="dJL-hI-np8" secondAttribute="leading" id="Fzz-dT-AT3"/>
+                                    <constraint firstItem="QtV-IS-VM6" firstAttribute="leading" secondItem="dJL-hI-np8" secondAttribute="leading" id="LFZ-nD-RSj"/>
+                                    <constraint firstAttribute="trailing" secondItem="S3i-5O-7lI" secondAttribute="trailing" id="Odd-sf-oZ5"/>
+                                    <constraint firstAttribute="trailing" secondItem="QtV-IS-VM6" secondAttribute="trailing" id="SVE-v6-MGT"/>
+                                    <constraint firstAttribute="trailing" secondItem="S3i-5O-7lI" secondAttribute="trailing" id="WR3-cJ-0I4"/>
+                                    <constraint firstItem="S3i-5O-7lI" firstAttribute="leading" secondItem="dJL-hI-np8" secondAttribute="leading" id="XlT-ZM-xgu"/>
+                                    <constraint firstAttribute="height" constant="197" id="Ys9-3J-T9M"/>
+                                    <constraint firstItem="S3i-5O-7lI" firstAttribute="top" secondItem="QtV-IS-VM6" secondAttribute="bottom" id="hHn-dF-E34"/>
+                                    <constraint firstAttribute="bottom" secondItem="S3i-5O-7lI" secondAttribute="bottom" id="wcJ-OO-Zl7"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4hV-Uc-nJ5">
+                                <rect key="frame" x="187.5" y="333.5" width="0.0" height="0.0"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstAttribute="trailing" secondItem="S3i-5O-7lI" secondAttribute="trailing" id="jl4-eX-wGC"/>
-                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="S3i-5O-7lI" secondAttribute="bottom" id="oOg-cZ-dP9"/>
-                            <constraint firstItem="S3i-5O-7lI" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="rjU-Gw-G26"/>
+                            <constraint firstItem="4hV-Uc-nJ5" firstAttribute="centerY" secondItem="kh9-bI-dsS" secondAttribute="centerY" id="CNk-kj-1AS"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="dJL-hI-np8" secondAttribute="bottom" id="PZN-eP-EFd"/>
+                            <constraint firstAttribute="trailing" secondItem="dJL-hI-np8" secondAttribute="trailing" id="gd4-ii-LkQ"/>
+                            <constraint firstItem="4hV-Uc-nJ5" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="mCC-k7-F1q"/>
+                            <constraint firstItem="dJL-hI-np8" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="uNT-2t-GXS"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="labelCountryInfo" destination="4hV-Uc-nJ5" id="pEe-yh-H72"/>
                         <outlet property="pickerView" destination="S3i-5O-7lI" id="opY-fZ-W6s"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="37.600000000000001" y="26.53673163418291"/>
         </scene>
     </scenes>
 </document>

@@ -62,7 +62,7 @@ public class CountryFlags {
             }
             return false
         }
-        guard index != nil else{
+        guard index != nil else {
             return "no data"
         }
         cPhoneCode =   (k?[index!] as! Dictionary<String,Any>)["dial_code"] as? String

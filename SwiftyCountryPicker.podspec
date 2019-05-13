@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SwiftyCountryPicker'
-  s.version          = '0.1.8'
+  s.version          = '0.1.9'
   s.summary          = 'Show a country picker to choose the country.'
   s.swift_version = '4.0'
 
@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-Show a country picker to choose the country we have some delegate methods to call that will give info to selected country.
+Show a country picker to choose the country. You can add your own done button above the picker to get the selected country.
                        DESC
 
   s.homepage         = 'https://github.com/anpkmr/SwiftyCountryPicker'
