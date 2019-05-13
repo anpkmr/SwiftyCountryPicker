@@ -21,6 +21,10 @@ public class countryPickerViewCell: UIView {
     }
     */
     
+    public override func awakeFromNib() {
+        super.awakeFromNib()
+    }
+    
   public func  setCountryCellData(countryObject:Country,flag:Bool ,countryName:Bool ,countryCode: Bool ,countrydialCode:Bool){
     lblCountryInital.isHidden = countryName
     lblCountyImage.isHidden = flag

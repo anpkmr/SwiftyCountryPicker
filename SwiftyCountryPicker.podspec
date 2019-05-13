@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SwiftyCountryPicker'
-  s.version          = '0.1.5'
+  s.version          = '0.1.8'
   s.summary          = 'Show a country picker to choose the country.'
   s.swift_version = '4.0'
 

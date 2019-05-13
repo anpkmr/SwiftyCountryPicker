@@ -316,6 +316,7 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-SwiftyCountryPicker_Example/Pods-SwiftyCountryPicker_Example-resources.sh",
 				"${PODS_ROOT}/../../SwiftyCountryPicker/Assets/CallingCodes.plist",
+				"${PODS_ROOT}/../../SwiftyCountryPicker/Assets/CountryCellView.xib",
 				"${PODS_CONFIGURATION_BUILD_DIR}/SwiftyCountryPicker/SwiftyCountryPicker.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
@@ -323,6 +324,7 @@
 			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CallingCodes.plist",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CountryCellView.nib",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SwiftyCountryPicker.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -98,10 +98,12 @@ EOM
 }
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_resource "${PODS_ROOT}/../../SwiftyCountryPicker/Assets/CallingCodes.plist"
+  install_resource "${PODS_ROOT}/../../SwiftyCountryPicker/Assets/CountryCellView.xib"
   install_resource "${PODS_CONFIGURATION_BUILD_DIR}/SwiftyCountryPicker/SwiftyCountryPicker.bundle"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_resource "${PODS_ROOT}/../../SwiftyCountryPicker/Assets/CallingCodes.plist"
+  install_resource "${PODS_ROOT}/../../SwiftyCountryPicker/Assets/CountryCellView.xib"
   install_resource "${PODS_CONFIGURATION_BUILD_DIR}/SwiftyCountryPicker/SwiftyCountryPicker.bundle"
 fi
 

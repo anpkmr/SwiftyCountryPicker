@@ -1,5 +1,5 @@
 PODS:
-  - SwiftyCountryPicker (0.1.7)
+  - SwiftyCountryPicker (0.1.8)
 
 DEPENDENCIES:
   - SwiftyCountryPicker (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  SwiftyCountryPicker: bd81d39ae57c16bd56cde15736e57d6b90a27a66
+  SwiftyCountryPicker: 2eafe46d39c9b3042f4cc79e11a33c3d49d12709
 
 PODFILE CHECKSUM: 7798df67ba6121ff488fa6ae09dce226064f2083
 
