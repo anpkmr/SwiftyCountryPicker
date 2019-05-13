@@ -1,6 +1,6 @@
 {
   "name": "SwiftyCountryPicker",
-  "version": "0.1.5",
+  "version": "0.1.7",
   "summary": "Show a country picker to choose the country.",
   "swift_version": "4.0",
   "description": "Show a country picker to choose the country we have some delegate methods to call that will give info to selected country.",
@@ -14,7 +14,7 @@
   },
   "source": {
     "git": "https://github.com/anpkmr/SwiftyCountryPicker.git",
-    "tag": "0.1.5"
+    "tag": "0.1.7"
   },
   "requires_arc": true,
   "platforms": {

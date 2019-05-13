@@ -8,31 +8,29 @@
 
 /* Begin PBXBuildFile section */
 		1C96EF9F93CD9C9FDDB1BCA5E8EB8966 /* Pods-SwiftyCountryPicker_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C0CADB29F95267F14956F64A1FA6E2D /* Pods-SwiftyCountryPicker_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2C6C78F3304E2FD9CACECAF59405348A /* countryPickerViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53257B338E428A16DE108AD9940DEDF2 /* countryPickerViewCell.swift */; };
+		22F080C59BEB2D5E6762149E4B18F37E /* countryPickerViewCell.swift in Resources */ = {isa = PBXBuildFile; fileRef = 057BDCEA4BE4B429C74FA04CA21B59EA /* countryPickerViewCell.swift */; };
+		23DB0429A52596CA3E9590D31AF0774E /* CallingCodes.plist in Resources */ = {isa = PBXBuildFile; fileRef = 53FB3AABA96E61CDC6F30114B3D49736 /* CallingCodes.plist */; };
+		2AD705B956919CA8E35CDAC7172D38BA /* CustomCellView in Resources */ = {isa = PBXBuildFile; fileRef = E9E0101D0F2A739262A373507FFB3B6A /* CustomCellView */; };
 		2D6F59D9D1F8DFC2633ABFEA9A1BABF7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		326804D026EDF7D2761612A52440D571 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F0B76A5E4CBFBD11379E3D10F537A1 /* Country.swift */; };
-		3815223C52507DFE212BBDFD2BE0C47D /* SwiftyCountryPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 691083D906F8706E5B3E2A072FD4AB02 /* SwiftyCountryPicker-dummy.m */; };
 		3BB5F95836DA3A5BAF85B0D3D2669B3D /* Pods-SwiftyCountryPicker_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 171AF546400FBDCA6C1AD16AE4114CF7 /* Pods-SwiftyCountryPicker_Tests-dummy.m */; };
-		42E15826D728D8642B33FB336BEDD263 /* CallingCodes.plist in Resources */ = {isa = PBXBuildFile; fileRef = D2C3A78B6947EBA0D9D48206558C41EE /* CallingCodes.plist */; };
-		44BB9C61BE9CFC6A9B2CAEA172BFAD13 /* CountryCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81ACC75185A24106796A2329F6534EB3 /* CountryCellView.xib */; };
+		3F64686146EA0B4CCA3ADE853BE3124A /* countryPickerViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 057BDCEA4BE4B429C74FA04CA21B59EA /* countryPickerViewCell.swift */; };
 		464AC4D8D9A1C11508FD5B52EEAAB2E4 /* Pods-SwiftyCountryPicker_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 49F8E86D3313EBB74509A596CD5E85F6 /* Pods-SwiftyCountryPicker_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		584D7390F1FE4D7FB8AACF1C1AFD6757 /* CountryM in Resources */ = {isa = PBXBuildFile; fileRef = EB31825F414EB48BFAF3A028CF500107 /* CountryM */; };
+		4A5E9D53930DDECA679EC9046F8E900B /* CountryFlags.swift in Sources */ = {isa = PBXBuildFile; fileRef = B376F9D241AEEC06409CE01A4CB698BA /* CountryFlags.swift */; };
 		68CC66467B4A8659A2812B4268A6CD71 /* Pods-SwiftyCountryPicker_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E8A4521FF70694A0C6C5381CFA071BB2 /* Pods-SwiftyCountryPicker_Example-dummy.m */; };
-		70BD40F39561A0C05140B3E94CDF6D14 /* CallingCodes.plist in Resources */ = {isa = PBXBuildFile; fileRef = D2C3A78B6947EBA0D9D48206558C41EE /* CallingCodes.plist */; };
-		91131AF28D29D7FFC44F6821CCF59750 /* CountryFlags.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C6889E37ECAF6E336B5BE0E632E315F /* CountryFlags.swift */; };
+		6DCC118DE5BACD689C5B9EDA48E419C9 /* SwiftyCountryPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F9B9CFEC2CAF0B16FE989DAD147C8CEB /* SwiftyCountryPicker-dummy.m */; };
+		70BD40F39561A0C05140B3E94CDF6D14 /* CallingCodes.plist in Resources */ = {isa = PBXBuildFile; fileRef = 53FB3AABA96E61CDC6F30114B3D49736 /* CallingCodes.plist */; };
+		90234270B069F53641FA6BB1E4CE1F70 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5F3632B7779D0E41ACF3C7438E5537 /* Country.swift */; };
 		9E85708DC489FC54F6409233D96E8A17 /* SwiftyCountryPicker.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 24384F6E7438FE14FF5AF3BB1AEE2D2E /* SwiftyCountryPicker.bundle */; };
-		9F07E10082EB5B33F64CE0C24A6202F6 /* CountryCellView.xib in Sources */ = {isa = PBXBuildFile; fileRef = 81ACC75185A24106796A2329F6534EB3 /* CountryCellView.xib */; };
-		9FD290B04C1440767706175AC33619B7 /* CountryPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA1AF4221556B7BD3418520F45560B8 /* CountryPickerView.swift */; };
-		A4A5824473047E5F5C35209B7B043C09 /* SwiftyCountryPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 77175CBE515E8D5D3E4ADB240527D437 /* SwiftyCountryPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A5CAA2CEF4405A7AF295BACEE39F1D9D /* Country.swift in Resources */ = {isa = PBXBuildFile; fileRef = E9F0B76A5E4CBFBD11379E3D10F537A1 /* Country.swift */; };
-		C22D683C9964767B8993A4D0E2E69AA5 /* CountryFlags in Resources */ = {isa = PBXBuildFile; fileRef = 7141789A2D686B87870A3D032257F0BF /* CountryFlags */; };
+		A0A3DEE448D9DC32AB9222483EA62228 /* CountryPView in Resources */ = {isa = PBXBuildFile; fileRef = FDE113CD6E348153C10B08073A43BB82 /* CountryPView */; };
+		A4A5824473047E5F5C35209B7B043C09 /* SwiftyCountryPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 66CC29719D8FEB263B8E763F3F7D3652 /* SwiftyCountryPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AF4BF0E70F227D9C04377BADB1C743CF /* CountryFlags.swift in Resources */ = {isa = PBXBuildFile; fileRef = B376F9D241AEEC06409CE01A4CB698BA /* CountryFlags.swift */; };
+		B51BE626C145246A004A32F5494888E3 /* CountryPickerView.swift in Resources */ = {isa = PBXBuildFile; fileRef = D3A6747C471E3533394997AA454944DF /* CountryPickerView.swift */; };
+		B8717C53BC90B64CA83DD4F07DBAA687 /* Country.swift in Resources */ = {isa = PBXBuildFile; fileRef = 1C5F3632B7779D0E41ACF3C7438E5537 /* Country.swift */; };
 		C450E75A894529CB76E24D0A0417C081 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		CD2BCD500FC24461DB3155327A887BEC /* CustomCellView in Resources */ = {isa = PBXBuildFile; fileRef = 14E7CE41D6669787D5F5785505EF874B /* CustomCellView */; };
-		D7F1FD56ECDD2B356D689A62061F0623 /* CountryPView in Resources */ = {isa = PBXBuildFile; fileRef = 0A4557DA2A81B2C94CBB163C4782D370 /* CountryPView */; };
-		D9821C4E636DBC8BF475ED58CAD56DF2 /* CountryPickerView.swift in Resources */ = {isa = PBXBuildFile; fileRef = 4BA1AF4221556B7BD3418520F45560B8 /* CountryPickerView.swift */; };
+		D077B828B884338CD7F98D78A574879E /* CountryM in Resources */ = {isa = PBXBuildFile; fileRef = 70984B67195252C33779B0F2CED478B5 /* CountryM */; };
 		DA235621E6721CF59E906C7E93341B31 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		E3D8F5AB10F7BC79C4294C20F09FCC6E /* countryPickerViewCell.swift in Resources */ = {isa = PBXBuildFile; fileRef = 53257B338E428A16DE108AD9940DEDF2 /* countryPickerViewCell.swift */; };
-		F5040B7E4768FDE82218D9DD68112264 /* CountryFlags.swift in Resources */ = {isa = PBXBuildFile; fileRef = 0C6889E37ECAF6E336B5BE0E632E315F /* CountryFlags.swift */; };
+		DC3F8872AB386A5F9F4E90F8E656875A /* CountryPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A6747C471E3533394997AA454944DF /* CountryPickerView.swift */; };
+		EA441410B2397A693B190C59B76DB400 /* CountryFlags in Resources */ = {isa = PBXBuildFile; fileRef = 5C5FD773FD717E28C1991227871EB154 /* CountryFlags */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,49 +58,48 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0A4557DA2A81B2C94CBB163C4782D370 /* CountryPView */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; path = CountryPView; sourceTree = "<group>"; };
-		0A7D99D698508F8A0E8A5B58E66A8094 /* SwiftyCountryPicker.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = SwiftyCountryPicker.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		057BDCEA4BE4B429C74FA04CA21B59EA /* countryPickerViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = countryPickerViewCell.swift; sourceTree = "<group>"; };
+		0AF7FD466D27785A7798FF8301BD4D33 /* SwiftyCountryPicker.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SwiftyCountryPicker.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		0C0CADB29F95267F14956F64A1FA6E2D /* Pods-SwiftyCountryPicker_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftyCountryPicker_Example-umbrella.h"; sourceTree = "<group>"; };
-		0C6889E37ECAF6E336B5BE0E632E315F /* CountryFlags.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CountryFlags.swift; sourceTree = "<group>"; };
-		0DE3F828720D65B29E4B77C2B12AB7FB /* SwiftyCountryPicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyCountryPicker.xcconfig; sourceTree = "<group>"; };
-		1069B62C898B6F85D6EADA2D3025B92C /* Pods_SwiftyCountryPicker_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftyCountryPicker_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1069B62C898B6F85D6EADA2D3025B92C /* Pods_SwiftyCountryPicker_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SwiftyCountryPicker_Example.framework; path = "Pods-SwiftyCountryPicker_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		10CAB45FEF148C1A83B2518C82BAD565 /* Pods-SwiftyCountryPicker_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftyCountryPicker_Example-Info.plist"; sourceTree = "<group>"; };
-		14E7CE41D6669787D5F5785505EF874B /* CustomCellView */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; path = CustomCellView; sourceTree = "<group>"; };
 		171AF546400FBDCA6C1AD16AE4114CF7 /* Pods-SwiftyCountryPicker_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftyCountryPicker_Tests-dummy.m"; sourceTree = "<group>"; };
+		1C5F3632B7779D0E41ACF3C7438E5537 /* Country.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
 		1DDB4572CE00C38807A0C4E7F172F0A0 /* Pods-SwiftyCountryPicker_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftyCountryPicker_Tests-Info.plist"; sourceTree = "<group>"; };
-		24384F6E7438FE14FF5AF3BB1AEE2D2E /* SwiftyCountryPicker.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftyCountryPicker.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		2785A5444FBED66032C9B5132D0DC574 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		2DC9AE25E14ADAE608E2E8F4626D99FE /* SwiftyCountryPicker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftyCountryPicker-Info.plist"; sourceTree = "<group>"; };
-		2FA02AA1E6D63CE5898CC0BEEA36C7B2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		24384F6E7438FE14FF5AF3BB1AEE2D2E /* SwiftyCountryPicker.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = SwiftyCountryPicker.bundle; path = "SwiftyCountryPicker-SwiftyCountryPicker.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
 		369E4F7CC4998B8946EC1054D9901C3E /* Pods-SwiftyCountryPicker_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwiftyCountryPicker_Example.modulemap"; sourceTree = "<group>"; };
 		458192147815D7C04AA911A9C1625B2E /* Pods-SwiftyCountryPicker_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftyCountryPicker_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		49F8E86D3313EBB74509A596CD5E85F6 /* Pods-SwiftyCountryPicker_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftyCountryPicker_Tests-umbrella.h"; sourceTree = "<group>"; };
-		4BA1AF4221556B7BD3418520F45560B8 /* CountryPickerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CountryPickerView.swift; sourceTree = "<group>"; };
 		5195BDCB0A18DA6A71E33D37F4E7E4FA /* Pods-SwiftyCountryPicker_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftyCountryPicker_Example.release.xcconfig"; sourceTree = "<group>"; };
-		53257B338E428A16DE108AD9940DEDF2 /* countryPickerViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = countryPickerViewCell.swift; sourceTree = "<group>"; };
-		555AB3ECEFA8CAB8D574270DCA82609C /* SwiftyCountryPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyCountryPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		53FB3AABA96E61CDC6F30114B3D49736 /* CallingCodes.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = CallingCodes.plist; path = SwiftyCountryPicker/Assets/CallingCodes.plist; sourceTree = "<group>"; };
+		5424FC36077E39DC1067F7E2E7D33E77 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		555AB3ECEFA8CAB8D574270DCA82609C /* SwiftyCountryPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyCountryPicker.framework; path = SwiftyCountryPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		595F2C778E5AAAF07D6203A8DB0EECD3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		5B5826C8EB1EC33B74973F0504B1C4ED /* Pods-SwiftyCountryPicker_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftyCountryPicker_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		5C5FD773FD717E28C1991227871EB154 /* CountryFlags */ = {isa = PBXFileReference; includeInIndex = 1; path = CountryFlags; sourceTree = "<group>"; };
 		5F43197C1902F02CB9E5490D04C88271 /* Pods-SwiftyCountryPicker_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftyCountryPicker_Example-resources.sh"; sourceTree = "<group>"; };
-		691083D906F8706E5B3E2A072FD4AB02 /* SwiftyCountryPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyCountryPicker-dummy.m"; sourceTree = "<group>"; };
-		7141789A2D686B87870A3D032257F0BF /* CountryFlags */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; path = CountryFlags; sourceTree = "<group>"; };
+		66CC29719D8FEB263B8E763F3F7D3652 /* SwiftyCountryPicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyCountryPicker-umbrella.h"; sourceTree = "<group>"; };
+		70984B67195252C33779B0F2CED478B5 /* CountryM */ = {isa = PBXFileReference; includeInIndex = 1; path = CountryM; sourceTree = "<group>"; };
 		73C9394F33BB77BD058075EE06B9E589 /* Pods-SwiftyCountryPicker_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftyCountryPicker_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		77175CBE515E8D5D3E4ADB240527D437 /* SwiftyCountryPicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyCountryPicker-umbrella.h"; sourceTree = "<group>"; };
 		7870769FE47BFBEBC4E4B67F96D24260 /* Pods-SwiftyCountryPicker_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftyCountryPicker_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		79053C87E0AFED751F70AB11FAFB1647 /* Pods-SwiftyCountryPicker_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftyCountryPicker_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		81ACC75185A24106796A2329F6534EB3 /* CountryCellView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = CountryCellView.xib; sourceTree = "<group>"; };
-		9AE8B9AE3A9AE564A90E665BF28DA169 /* Pods_SwiftyCountryPicker_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftyCountryPicker_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A0F30197B91E4609353F061BA5CBA6A7 /* SwiftyCountryPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyCountryPicker-prefix.pch"; sourceTree = "<group>"; };
+		8C89503C2D0B7D8C3CCD8B83FDBBC326 /* ResourceBundle-SwiftyCountryPicker-SwiftyCountryPicker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-SwiftyCountryPicker-SwiftyCountryPicker-Info.plist"; sourceTree = "<group>"; };
+		9AE8B9AE3A9AE564A90E665BF28DA169 /* Pods_SwiftyCountryPicker_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SwiftyCountryPicker_Tests.framework; path = "Pods-SwiftyCountryPicker_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		ABD3E6970FFCC15FCC4B7A8DA6612FE3 /* Pods-SwiftyCountryPicker_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwiftyCountryPicker_Tests.modulemap"; sourceTree = "<group>"; };
+		B376F9D241AEEC06409CE01A4CB698BA /* CountryFlags.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CountryFlags.swift; sourceTree = "<group>"; };
+		C5D00CF9527A560EA64E2108DEE8CCA5 /* SwiftyCountryPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyCountryPicker-prefix.pch"; sourceTree = "<group>"; };
 		C606E16585835E8E23F730F8844CD114 /* Pods-SwiftyCountryPicker_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftyCountryPicker_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		C8F950AD416003C4061BFBE24AC4E620 /* SwiftyCountryPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftyCountryPicker.modulemap; sourceTree = "<group>"; };
+		C7DD0E3851313856A558F33152729EF5 /* SwiftyCountryPicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyCountryPicker.xcconfig; sourceTree = "<group>"; };
 		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		D2C3A78B6947EBA0D9D48206558C41EE /* CallingCodes.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = CallingCodes.plist; path = SwiftyCountryPicker/Assets/CallingCodes.plist; sourceTree = "<group>"; };
+		D3A6747C471E3533394997AA454944DF /* CountryPickerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CountryPickerView.swift; sourceTree = "<group>"; };
 		DCEAFD200682CE90DBB5B0311493EE8A /* Pods-SwiftyCountryPicker_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftyCountryPicker_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		E8A4521FF70694A0C6C5381CFA071BB2 /* Pods-SwiftyCountryPicker_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftyCountryPicker_Example-dummy.m"; sourceTree = "<group>"; };
-		E9F0B76A5E4CBFBD11379E3D10F537A1 /* Country.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
-		EB31825F414EB48BFAF3A028CF500107 /* CountryM */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; path = CountryM; sourceTree = "<group>"; };
-		F2CFAFDD23B0DBEA070889EBA7FA7C44 /* ResourceBundle-SwiftyCountryPicker-SwiftyCountryPicker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-SwiftyCountryPicker-SwiftyCountryPicker-Info.plist"; sourceTree = "<group>"; };
+		E9E0101D0F2A739262A373507FFB3B6A /* CustomCellView */ = {isa = PBXFileReference; includeInIndex = 1; path = CustomCellView; sourceTree = "<group>"; };
+		EFA66125CBF21F87C120D9BBBCEC9F26 /* SwiftyCountryPicker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftyCountryPicker-Info.plist"; sourceTree = "<group>"; };
+		F143B1904F4169C7BFC4C355CC743000 /* SwiftyCountryPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftyCountryPicker.modulemap; sourceTree = "<group>"; };
+		F9B9CFEC2CAF0B16FE989DAD147C8CEB /* SwiftyCountryPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyCountryPicker-dummy.m"; sourceTree = "<group>"; };
+		FDE113CD6E348153C10B08073A43BB82 /* CountryPView */ = {isa = PBXFileReference; includeInIndex = 1; path = CountryPView; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,36 +137,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		08D1AD5BDA2B87D904B5951DCB7F6F89 /* SwiftyCountryPicker */ = {
+		02457020A0557786F860ED1880B5ABE7 /* CountryPView */ = {
 			isa = PBXGroup;
 			children = (
-				FAF20F27C53C88AFD24EDDDA692D48F4 /* CountryFlags */,
-				EBE6CE017DB7BB8F4D749F204147A2E4 /* CountryM */,
-				0F8031EEE45985C6D944F3CDE4CCFD88 /* CountryPView */,
-				A1AA8F36E58F84C517646CB796ACB6C7 /* CustomCellView */,
-				E7F5323DF502869B7531FBADF9E74674 /* Pod */,
-				62BB56DF0773486D67900B1A1A37F646 /* Resources */,
-				6C120FEEF042FFE5286BF886D0DD2540 /* Support Files */,
+				D3A6747C471E3533394997AA454944DF /* CountryPickerView.swift */,
 			);
-			name = SwiftyCountryPicker;
-			path = ../..;
+			name = CountryPView;
+			path = SwiftyCountryPicker/Classes/CountryPView;
 			sourceTree = "<group>";
 		};
 		09B75A5A3F5882B567E8251326430C35 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				08D1AD5BDA2B87D904B5951DCB7F6F89 /* SwiftyCountryPicker */,
+				C2B2F4CEBC4AE36BC4BAE0A92F4F26A3 /* SwiftyCountryPicker */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		0F8031EEE45985C6D944F3CDE4CCFD88 /* CountryPView */ = {
+		0E74FC474C8DB6A23BABD0761C082F79 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				4BA1AF4221556B7BD3418520F45560B8 /* CountryPickerView.swift */,
+				5C5FD773FD717E28C1991227871EB154 /* CountryFlags */,
+				70984B67195252C33779B0F2CED478B5 /* CountryM */,
+				FDE113CD6E348153C10B08073A43BB82 /* CountryPView */,
+				E9E0101D0F2A739262A373507FFB3B6A /* CustomCellView */,
 			);
-			name = CountryPView;
-			path = SwiftyCountryPicker/Classes/CountryPView;
+			name = Classes;
+			path = SwiftyCountryPicker/Classes;
 			sourceTree = "<group>";
 		};
 		14AEFBDD64E956108644CB6BA2989A9C /* Targets Support Files */ = {
@@ -181,41 +175,28 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		1CF5046AECF3941911AA17C226EAAEA5 /* Classes */ = {
+		200B061F3E67BFE59266B3E9FAF9F58A /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				7141789A2D686B87870A3D032257F0BF /* CountryFlags */,
-				EB31825F414EB48BFAF3A028CF500107 /* CountryM */,
-				0A4557DA2A81B2C94CBB163C4782D370 /* CountryPView */,
-				14E7CE41D6669787D5F5785505EF874B /* CustomCellView */,
-			);
-			name = Classes;
-			path = SwiftyCountryPicker/Classes;
-			sourceTree = "<group>";
-		};
-		62BB56DF0773486D67900B1A1A37F646 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				81ACC75185A24106796A2329F6534EB3 /* CountryCellView.xib */,
-				D2C3A78B6947EBA0D9D48206558C41EE /* CallingCodes.plist */,
-				1CF5046AECF3941911AA17C226EAAEA5 /* Classes */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		6C120FEEF042FFE5286BF886D0DD2540 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				F2CFAFDD23B0DBEA070889EBA7FA7C44 /* ResourceBundle-SwiftyCountryPicker-SwiftyCountryPicker-Info.plist */,
-				C8F950AD416003C4061BFBE24AC4E620 /* SwiftyCountryPicker.modulemap */,
-				0DE3F828720D65B29E4B77C2B12AB7FB /* SwiftyCountryPicker.xcconfig */,
-				691083D906F8706E5B3E2A072FD4AB02 /* SwiftyCountryPicker-dummy.m */,
-				2DC9AE25E14ADAE608E2E8F4626D99FE /* SwiftyCountryPicker-Info.plist */,
-				A0F30197B91E4609353F061BA5CBA6A7 /* SwiftyCountryPicker-prefix.pch */,
-				77175CBE515E8D5D3E4ADB240527D437 /* SwiftyCountryPicker-umbrella.h */,
+				8C89503C2D0B7D8C3CCD8B83FDBBC326 /* ResourceBundle-SwiftyCountryPicker-SwiftyCountryPicker-Info.plist */,
+				F143B1904F4169C7BFC4C355CC743000 /* SwiftyCountryPicker.modulemap */,
+				C7DD0E3851313856A558F33152729EF5 /* SwiftyCountryPicker.xcconfig */,
+				F9B9CFEC2CAF0B16FE989DAD147C8CEB /* SwiftyCountryPicker-dummy.m */,
+				EFA66125CBF21F87C120D9BBBCEC9F26 /* SwiftyCountryPicker-Info.plist */,
+				C5D00CF9527A560EA64E2108DEE8CCA5 /* SwiftyCountryPicker-prefix.pch */,
+				66CC29719D8FEB263B8E763F3F7D3652 /* SwiftyCountryPicker-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/SwiftyCountryPicker";
+			sourceTree = "<group>";
+		};
+		4EAE73A8A671DF6E7348E0DDA0B8B2D2 /* CountryFlags */ = {
+			isa = PBXGroup;
+			children = (
+				B376F9D241AEEC06409CE01A4CB698BA /* CountryFlags.swift */,
+			);
+			name = CountryFlags;
+			path = SwiftyCountryPicker/Classes/CountryFlags;
 			sourceTree = "<group>";
 		};
 		703C9C6B6A3EE53280F00C64DFEA6F56 /* Pods-SwiftyCountryPicker_Example */ = {
@@ -251,6 +232,15 @@
 			path = "Target Support Files/Pods-SwiftyCountryPicker_Tests";
 			sourceTree = "<group>";
 		};
+		8869526A77AA8FBC8B05CDAD3D89D35D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				53FB3AABA96E61CDC6F30114B3D49736 /* CallingCodes.plist */,
+				0E74FC474C8DB6A23BABD0761C082F79 /* Classes */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -259,10 +249,25 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		A1AA8F36E58F84C517646CB796ACB6C7 /* CustomCellView */ = {
+		C2B2F4CEBC4AE36BC4BAE0A92F4F26A3 /* SwiftyCountryPicker */ = {
 			isa = PBXGroup;
 			children = (
-				53257B338E428A16DE108AD9940DEDF2 /* countryPickerViewCell.swift */,
+				4EAE73A8A671DF6E7348E0DDA0B8B2D2 /* CountryFlags */,
+				DF01A23EE978D11B24A1E852AF9AE8E9 /* CountryM */,
+				02457020A0557786F860ED1880B5ABE7 /* CountryPView */,
+				C909FC00B4D481572D6C683229979E44 /* CustomCellView */,
+				EFA9726DD1293C62CFA39E41B9FFF2BC /* Pod */,
+				8869526A77AA8FBC8B05CDAD3D89D35D /* Resources */,
+				200B061F3E67BFE59266B3E9FAF9F58A /* Support Files */,
+			);
+			name = SwiftyCountryPicker;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		C909FC00B4D481572D6C683229979E44 /* CustomCellView */ = {
+			isa = PBXGroup;
+			children = (
+				057BDCEA4BE4B429C74FA04CA21B59EA /* countryPickerViewCell.swift */,
 			);
 			name = CustomCellView;
 			path = SwiftyCountryPicker/Classes/CustomCellView;
@@ -298,32 +303,23 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E7F5323DF502869B7531FBADF9E74674 /* Pod */ = {
+		DF01A23EE978D11B24A1E852AF9AE8E9 /* CountryM */ = {
 			isa = PBXGroup;
 			children = (
-				2FA02AA1E6D63CE5898CC0BEEA36C7B2 /* LICENSE */,
-				2785A5444FBED66032C9B5132D0DC574 /* README.md */,
-				0A7D99D698508F8A0E8A5B58E66A8094 /* SwiftyCountryPicker.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		EBE6CE017DB7BB8F4D749F204147A2E4 /* CountryM */ = {
-			isa = PBXGroup;
-			children = (
-				E9F0B76A5E4CBFBD11379E3D10F537A1 /* Country.swift */,
+				1C5F3632B7779D0E41ACF3C7438E5537 /* Country.swift */,
 			);
 			name = CountryM;
 			path = SwiftyCountryPicker/Classes/CountryM;
 			sourceTree = "<group>";
 		};
-		FAF20F27C53C88AFD24EDDDA692D48F4 /* CountryFlags */ = {
+		EFA9726DD1293C62CFA39E41B9FFF2BC /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				0C6889E37ECAF6E336B5BE0E632E315F /* CountryFlags.swift */,
+				5424FC36077E39DC1067F7E2E7D33E77 /* LICENSE */,
+				595F2C778E5AAAF07D6203A8DB0EECD3 /* README.md */,
+				0AF7FD466D27785A7798FF8301BD4D33 /* SwiftyCountryPicker.podspec */,
 			);
-			name = CountryFlags;
-			path = SwiftyCountryPicker/Classes/CountryFlags;
+			name = Pod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -361,7 +357,7 @@
 			buildConfigurationList = DBB3399B900F8FC92E3BA7766B584924 /* Build configuration list for PBXNativeTarget "SwiftyCountryPicker" */;
 			buildPhases = (
 				3F1207A2B2ACBAAB422F8BB0E40E68A4 /* Headers */,
-				A76D6A203A11D79BA4F2057D640046EA /* Sources */,
+				6EF04AEC0A76FFE0BD3D093759435264 /* Sources */,
 				D8ECB5734AD842316840CCA8A2EB3F6D /* Frameworks */,
 				EB3632B98477E850FE5E8055FCC73A01 /* Resources */,
 			);
@@ -419,7 +415,7 @@
 			buildPhases = (
 				D886E06A597F9E6C1F47DF7F055A088D /* Sources */,
 				A5025E66E67E77F54048DBAA338C103A /* Frameworks */,
-				DA490D64A53C7B5B8F2D3EA47AFBB60B /* Resources */,
+				AAD1A65BA89DE7A9406F95CBEB7E79A3 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -467,27 +463,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AAD1A65BA89DE7A9406F95CBEB7E79A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23DB0429A52596CA3E9590D31AF0774E /* CallingCodes.plist in Resources */,
+				B8717C53BC90B64CA83DD4F07DBAA687 /* Country.swift in Resources */,
+				EA441410B2397A693B190C59B76DB400 /* CountryFlags in Resources */,
+				AF4BF0E70F227D9C04377BADB1C743CF /* CountryFlags.swift in Resources */,
+				D077B828B884338CD7F98D78A574879E /* CountryM in Resources */,
+				B51BE626C145246A004A32F5494888E3 /* CountryPickerView.swift in Resources */,
+				22F080C59BEB2D5E6762149E4B18F37E /* countryPickerViewCell.swift in Resources */,
+				A0A3DEE448D9DC32AB9222483EA62228 /* CountryPView in Resources */,
+				2AD705B956919CA8E35CDAC7172D38BA /* CustomCellView in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C0EBE74EEBE5AD7D9B3CC79EB1418BED /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DA490D64A53C7B5B8F2D3EA47AFBB60B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				42E15826D728D8642B33FB336BEDD263 /* CallingCodes.plist in Resources */,
-				A5CAA2CEF4405A7AF295BACEE39F1D9D /* Country.swift in Resources */,
-				44BB9C61BE9CFC6A9B2CAEA172BFAD13 /* CountryCellView.xib in Resources */,
-				C22D683C9964767B8993A4D0E2E69AA5 /* CountryFlags in Resources */,
-				F5040B7E4768FDE82218D9DD68112264 /* CountryFlags.swift in Resources */,
-				584D7390F1FE4D7FB8AACF1C1AFD6757 /* CountryM in Resources */,
-				D9821C4E636DBC8BF475ED58CAD56DF2 /* CountryPickerView.swift in Resources */,
-				E3D8F5AB10F7BC79C4294C20F09FCC6E /* countryPickerViewCell.swift in Resources */,
-				D7F1FD56ECDD2B356D689A62061F0623 /* CountryPView in Resources */,
-				CD2BCD500FC24461DB3155327A887BEC /* CustomCellView in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -503,24 +498,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		6EF04AEC0A76FFE0BD3D093759435264 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90234270B069F53641FA6BB1E4CE1F70 /* Country.swift in Sources */,
+				4A5E9D53930DDECA679EC9046F8E900B /* CountryFlags.swift in Sources */,
+				DC3F8872AB386A5F9F4E90F8E656875A /* CountryPickerView.swift in Sources */,
+				3F64686146EA0B4CCA3ADE853BE3124A /* countryPickerViewCell.swift in Sources */,
+				6DCC118DE5BACD689C5B9EDA48E419C9 /* SwiftyCountryPicker-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9DB418C5CEA3C086C78558736E78D917 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				68CC66467B4A8659A2812B4268A6CD71 /* Pods-SwiftyCountryPicker_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A76D6A203A11D79BA4F2057D640046EA /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				326804D026EDF7D2761612A52440D571 /* Country.swift in Sources */,
-				9F07E10082EB5B33F64CE0C24A6202F6 /* CountryCellView.xib in Sources */,
-				91131AF28D29D7FFC44F6821CCF59750 /* CountryFlags.swift in Sources */,
-				9FD290B04C1440767706175AC33619B7 /* CountryPickerView.swift in Sources */,
-				2C6C78F3304E2FD9CACECAF59405348A /* countryPickerViewCell.swift in Sources */,
-				3815223C52507DFE212BBDFD2BE0C47D /* SwiftyCountryPicker-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -632,7 +626,7 @@
 		};
 		62920A3ECF26484C8DA87DE1F20B11B0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0DE3F828720D65B29E4B77C2B12AB7FB /* SwiftyCountryPicker.xcconfig */;
+			baseConfigurationReference = C7DD0E3851313856A558F33152729EF5 /* SwiftyCountryPicker.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -697,7 +691,7 @@
 		};
 		88A8A7E099C5ED4DB279F803A1A5A1BD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0DE3F828720D65B29E4B77C2B12AB7FB /* SwiftyCountryPicker.xcconfig */;
+			baseConfigurationReference = C7DD0E3851313856A558F33152729EF5 /* SwiftyCountryPicker.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SwiftyCountryPicker";
@@ -713,7 +707,7 @@
 		};
 		9F33C0766DF86017FD88684A018036BB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0DE3F828720D65B29E4B77C2B12AB7FB /* SwiftyCountryPicker.xcconfig */;
+			baseConfigurationReference = C7DD0E3851313856A558F33152729EF5 /* SwiftyCountryPicker.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SwiftyCountryPicker";
@@ -878,7 +872,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -886,7 +881,7 @@
 		};
 		F60FEA7AA51E8D65644E910FFC7B82AA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0DE3F828720D65B29E4B77C2B12AB7FB /* SwiftyCountryPicker.xcconfig */;
+			baseConfigurationReference = C7DD0E3851313856A558F33152729EF5 /* SwiftyCountryPicker.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
