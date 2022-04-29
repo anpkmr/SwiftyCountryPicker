@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SwiftyCountryPicker'
-  s.version          = '0.1.10'
+  s.version          = '1.0.0'
   s.summary          = 'Show a country picker to choose the country.'
   s.swift_version = '4.0'
 
@@ -40,5 +40,4 @@ Show a country picker to choose the country. You can add your own done button ab
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   s.frameworks = 'UIKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end
